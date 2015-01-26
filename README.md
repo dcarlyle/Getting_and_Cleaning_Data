@@ -24,21 +24,24 @@ Data
 
 Packages required
 -----------------
-install.packages("dplyr")
-library("dplyr")
-install.packages("data.table")
-library("data.table")
+* install.packages("dplyr")
+* library("dplyr")
+* install.packages("data.table")
+* library("data.table")
 
 
 Running this script
 -------------------
 1) https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
- install.packages("downloader")
-  library("downloader")
-  url < - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download(url,dest="dataset.zip" mode = "wb") 
-  unzip ("dataset.zip",exdir = "./")
+```{r}
+install.packages("downloader")
+library("downloader")
+url < - "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download(url,dest="dataset.zip" mode = "wb") 
+unzip ("dataset.zip",exdir = "./")
+```
 2) install packages
+
 3) source("run_analysis.R")
 
 
@@ -53,9 +56,6 @@ trainingX <- data.table(trainingX)
 ```
 
 .2. Remove data columns that are not std & mean
-# NOTE: As far as I can tell from ?data.table:, the argument is named "with" because it determines whether the column index should 
-# be evaluated within the frame of the data.table, as it would be when using, e.g., base R's with() and within().
-# could do a subset command - http://www.inside-r.org/packages/cran/data.table/docs/subset.data.table
 ```{r}
 trainingX <- trainingX[, features$V1, with = FALSE]
 ```
