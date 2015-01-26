@@ -6,112 +6,115 @@ Data headings
 =============
 The following data heading can be found in the out put file after running the run_analysis.R
 
-1 subject.id : Subject ID
-2 activity : Activity recorded
 
-Training
---------
+<ol>
+<li> subject.id : Subject ID</li>
+<li> activity : Activity recorded</li>
+
+Training & Test
+----------------
 Body Acceleration 
-3 tBodyAcc-mean()-X
-4 tBodyAcc-mean()-Y
-5 tBodyAcc-mean()-Z
-6 tBodyAcc-std()-X
-7 tBodyAcc-std()-Y
-8 tBodyAcc-std()-Z
+<li> tBodyAcc-mean()-X</li>
+<li> tBodyAcc-mean()-Y</li>
+<li> tBodyAcc-mean()-Z</li>
+<li> tBodyAcc-std()-X</li>
+<li> tBodyAcc-std()-Y</li>
+<li> tBodyAcc-std()-Z</li>
 
 Gravity
-9 tGravityAcc-mean()-X
-10 tGravityAcc-mean()-Y
-11 tGravityAcc-mean()-Z
-12 tGravityAcc-std()-X
-13 tGravityAcc-std()-Y
-14 tGravityAcc-std()-Z
+<li> tGravityAcc-mean()-X</li>
+<li> tGravityAcc-mean()-Y</li>
+<li> tGravityAcc-mean()-Z</li>
+<li> tGravityAcc-std()-X</li>
+<li> tGravityAcc-std()-Y</li>
+<li> tGravityAcc-std()-Z</li>
 
 Jerk
-15 tBodyAccJerk-mean()-X
-16 tBodyAccJerk-mean()-Y
-17 tBodyAccJerk-mean()-Z
-18 tBodyAccJerk-std()-X
-19 tBodyAccJerk-std()-Y
-20 tBodyAccJerk-std()-Z
+<li> tBodyAccJerk-mean()-X</li>
+<li> tBodyAccJerk-mean()-Y</li>
+<li> tBodyAccJerk-mean()-Z</li>
+<li> tBodyAccJerk-std()-X</li>
+<li> tBodyAccJerk-std()-Y</li>
+<li> tBodyAccJerk-std()-Z</li>
 
 Gyroscope
-21 tBodyGyro-mean()-X
-22 tBodyGyro-mean()-Y
-23 tBodyGyro-mean()-Z
-24 tBodyGyro-std()-X
-25 tBodyGyro-std()-Y
-26 tBodyGyro-std()-Z
+<li> tBodyGyro-mean()-X</li>
+<li> tBodyGyro-mean()-Y</li>
+<li> tBodyGyro-mean()-Z</li>
+<li> tBodyGyro-std()-X</li>
+<li> tBodyGyro-std()-Y</li>
+<li> tBodyGyro-std()-Z</li>
 
-27 tBodyGyroJerk-mean()-X
-28 tBodyGyroJerk-mean()-Y
-29 tBodyGyroJerk-mean()-Z
-30 tBodyGyroJerk-std()-X
-31 tBodyGyroJerk-std()-Y
-32 tBodyGyroJerk-std()-Z
+Gyroscope & Jerk
+<li> tBodyGyroJerk-mean()-X</li>
+<li> tBodyGyroJerk-mean()-Y</li>
+<li> tBodyGyroJerk-mean()-Z</li>
+<li> tBodyGyroJerk-std()-X</li>
+<li> tBodyGyroJerk-std()-Y</li>
+<li> tBodyGyroJerk-std()-Z</li>
 
-33 tBodyAccMag-mean()
-34 tBodyAccMag-std()
-35 tGravityAccMag-mean()
-36 tGravityAccMag-std()
-37 tBodyAccJerkMag-mean()
-38 tBodyAccJerkMag-std()
-39 tBodyGyroMag-mean()
-40 tBodyGyroMag-std()
-41 tBodyGyroJerkMag-mean()
-42 tBodyGyroJerkMag-std()
+<li> tBodyAccMag-mean()</li>
+<li> tBodyAccMag-std()</li>
+<li> tGravityAccMag-mean()</li>
+<li> tGravityAccMag-std()</li>
+<li> tBodyAccJerkMag-mean()</li>
+<li> tBodyAccJerkMag-std()</li>
+<li> tBodyGyroMag-mean()</li>
+<li> tBodyGyroMag-std()</li>
+<li> tBodyGyroJerkMag-mean()</li>
+<li> tBodyGyroJerkMag-std()</li>
 
-Subject
+Feature
 -------
 Acceleration
-43 fBodyAcc-mean()-X
-44 fBodyAcc-mean()-Y
-45 fBodyAcc-mean()-Z
-46 fBodyAcc-std()-X
-47 fBodyAcc-std()-Y
-48 fBodyAcc-std()-Z
+<li> fBodyAcc-mean()-X</li>
+<li> fBodyAcc-mean()-Y</li>
+<li> fBodyAcc-mean()-Z</li>
+<li> fBodyAcc-std()-X</li>
+<li> fBodyAcc-std()-Y</li>
+<li> fBodyAcc-std()-Z</li>
 
-49 fBodyAcc-meanFreq()-X
-50 fBodyAcc-meanFreq()-Y
-51 fBodyAcc-meanFreq()-Z
+<li> fBodyAcc-meanFreq()-X</li>
+<li> fBodyAcc-meanFreq()-Y</li>
+<li> fBodyAcc-meanFreq()-Z</li>
 
 Jerk
-52 fBodyAccJerk-mean()-X
-53 fBodyAccJerk-mean()-Y
-54 fBodyAccJerk-mean()-Z
-55 fBodyAccJerk-std()-X
-56 fBodyAccJerk-std()-Y
-57 fBodyAccJerk-std()-Z
+<li> fBodyAccJerk-mean()-X</li>
+<li> fBodyAccJerk-mean()-Y</li>
+<li> fBodyAccJerk-mean()-Z</li>
+<li> fBodyAccJerk-std()-X</li>
+<li> fBodyAccJerk-std()-Y</li>
+<li> fBodyAccJerk-std()-Z</li>
 
-58 fBodyAccJerk-meanFreq()-X
-59 fBodyAccJerk-meanFreq()-Y
-60 fBodyAccJerk-meanFreq()-Z
+<li> fBodyAccJerk-meanFreq()-X</li>
+<li> fBodyAccJerk-meanFreq()-Y</li>
+<li> fBodyAccJerk-meanFreq()-Z</li>
 
 Gyroscope
-61 fBodyGyro-mean()-X
-62 fBodyGyro-mean()-Y
-63 fBodyGyro-mean()-Z
-64 fBodyGyro-std()-X
-65 fBodyGyro-std()-Y
-66 fBodyGyro-std()-Z
+<li> fBodyGyro-mean()-X</li>
+<li> fBodyGyro-mean()-Y</li>
+<li> fBodyGyro-mean()-Z</li>
+<li> fBodyGyro-std()-X</li>
+<li> fBodyGyro-std()-Y</li>
+<li> fBodyGyro-std()-Z</li>
 
-67 fBodyGyro-meanFreq()-X
-68 fBodyGyro-meanFreq()-Y
-69 fBodyGyro-meanFreq()-Z
+<li> fBodyGyro-meanFreq()-X</li>
+<li> fBodyGyro-meanFreq()-Y</li>
+<li> fBodyGyro-meanFreq()-Z</li>
 
 Acceleration
-70 fBodyAccMag-mean()
-71 fBodyAccMag-std()
-72 fBodyAccMag-meanFreq()
+<li> fBodyAccMag-mean()</li>
+<li> fBodyAccMag-std()</li>
+<li> fBodyAccMag-meanFreq()</li>
 
-73 fBodyBodyAccJerkMag-mean()
-74 fBodyBodyAccJerkMag-std()
-75 fBodyBodyAccJerkMag-meanFreq()
-76 fBodyBodyGyroMag-mean()
-77 fBodyBodyGyroMag-std()
-78 fBodyBodyGyroMag-meanFreq()
-79 fBodyBodyGyroJerkMag-mean()
-80 fBodyBodyGyroJerkMag-std()
-81 fBodyBodyGyroJerkMag-meanFreq()
-
+<li> fBodyBodyAccJerkMag-mean()</li>
+<li> fBodyBodyAccJerkMag-std()</li>
+<li> fBodyBodyAccJerkMag-meanFreq()</li>
+<li> fBodyBodyGyroMag-mean()</li>
+<li> fBodyBodyGyroMag-std()</li>
+<li> fBodyBodyGyroMag-meanFreq()</li>
+<li> fBodyBodyGyroJerkMag-mean()</li>
+<li> fBodyBodyGyroJerkMag-std()</li>
+<li> fBodyBodyGyroJerkMag-meanFreq()</li>
+</ol>
 
